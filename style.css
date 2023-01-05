@@ -1,0 +1,87 @@
+.card {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+  }
+  .card h2 {
+    margin: 10px 0;
+    color:rgb(13, 12, 12)
+  }
+  .card p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .card h3 {
+    margin: 10px 0;
+    font-size: 21px;
+  }
+  .card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: ivory;
+  }
+  .card li {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  .card {
+    background-image: linear-gradient(to right, #f13805c2, #dccb34 50%, #ecbd20 50%, #ffffff);
+    background-size: 200% auto;
+    background-clip: border-box;
+    border: 1px solid rgb(13, 12, 12);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  
+  .card:hover {
+    background-position: right center;
+    color: white;
+  }
+  
+  body{
+    background-image: url(https://cdn.wallpapersafari.com/43/82/Feoa43.jpg);
+  }
+   
+  .label-for{
+    color:rgb(2, 2, 2);
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom: 10px;
+    font-style: italic;
+    
+  }
+  
+ h1{
+    font-size: 3rem;
+ } 
+  
+#search-input{
+    font-style: italic;
+    width: 285px;
+    height: 35px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+}
+#search-button{
+    width: 125px;
+    height: 37px;
+    border:1px solid black;
+    border-radius: 10px;;
+    font-weight: bold;
+}
